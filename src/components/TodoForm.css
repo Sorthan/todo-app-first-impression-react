@@ -1,0 +1,41 @@
+.todo-form {
+    display: inline-block;
+    margin-left: -9%;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    color:red;
+    background-color: #fff;
+    font-size: 18px;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+  
+.todo-input {
+    padding: 8px 90px 7px 6px;
+    background-color: #fff;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    width: 320px;
+    color: rgb(0, 0, 0);
+}
+  
+.todo-input::placeholder {
+    color: #0000008c;
+}
+  
+.todo-button {
+    padding: 6px 6px 10px 6px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color:#fff; 
+    color: rgb(220, 78, 255);
+    text-transform: capitalize;
+}
+
+.ADDICON {
+    align-items: center;
+    font-size: "40px";
+}

@@ -1,0 +1,192 @@
+.DisplayOutput {
+    overflow: auto;
+}
+
+.Todo-h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 28px;
+  }
+
+.DropDown {
+    appearance: none;
+    align-items: center;
+    background-color: #FFF;
+    display: inline-block;
+    position: absolute;
+    top : 204.5px;
+    border: none;
+    outline: none;
+    padding: 5px 6px 5px 5px;
+    width: 150px;
+    height: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: rgb(161, 0, 224);
+    justify-self: end;
+    background-image:
+        linear-gradient(45deg, transparent 50%, rgb(161, 0, 224) 50%),
+        linear-gradient(135deg, rgb(161, 0, 224) 50%, transparent 50%),
+        linear-gradient(to right, rgb(255, 255, 255), #FFF);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        100% 0;
+    background-size:
+        5px 5px,
+        5px 5px,
+        5em 5em;
+    background-repeat: no-repeat;
+}
+
+.error-progress {
+    font-size: larger;
+}
+
+.AlertText {
+    font-size: 24px;
+    color: #FFF;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+.AlertText-comment {
+    font-size: 30px;
+    color: #FFF;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Status-text {
+    font-size: 40px;
+    color: #FFF;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.CloseButton {
+    background-color: rgba(255, 0, 0, 0.76);
+}
+
+.CloseIcon {
+    color: white;
+}
+
+.Todo-isUncompleteStyle {
+    display: block;
+    align-items: center;
+    outline: none;
+    font-family: 'Century Gothic' ,Arial, sans-serif;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color:rgb(255, 255, 255);
+    width:32%;
+    height:33px;
+    margin-top: 5px;
+    margin-left: 33.4%;
+    color: #000000;
+    font-size: 28px;
+    text-align: left;
+}
+
+.Todo-isCompleteStyle {
+    display: block;
+    align-items: center;
+    outline: none;
+    font-family: 'Century Gothic' ,Arial, sans-serif;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.400);
+    width:30%;
+    height:33px;
+    margin-top: 5px;
+    margin-left: 34.5%;
+    color: #00000093;
+    font-size: 28px;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.Todo-CheckUncompleteButton {
+    color: #FFF;
+    align-items: center;
+    outline: none;
+    margin-right: 10px;
+    padding: 4px 7px 2px 7px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Todo-CheckCompleteButton {
+    color: #FFF;
+    align-items: center;
+    outline: none;
+    margin-right: 10px;
+    padding: 4px 7px 2px 7px;
+    border: none;
+    border: 1px solid rgba(47, 255, 82, 0.822);
+    background-color: rgba(74, 255, 156, 0.705);
+    cursor: pointer;
+}
+
+.Todo-EditUncompleteButton {
+    display: inline-block;
+    align-items: center;
+    outline: none;
+    margin-right: 1px;
+    position: absolute;
+    padding: 4px 7px 4px 7px;
+    left: 61.9%;
+    color: #FFF;
+    border: none;
+    background-color: rgb(101, 211, 255);
+    cursor: pointer;
+}
+
+.Todo-EditCompleteButton {
+    display: inline-block;
+    align-items: center;
+    outline: none;
+    position: absolute;
+    margin-right: 1px;
+    padding: 4px 7px 4px 7px;
+    left: 60.9%;
+    color: #FFF;
+    border: none;
+    background-color: rgba(101, 211, 255, 0.400);
+    cursor: pointer;
+}
+
+.Todo-DeleteUncompleteButton {
+    display: inline-block;
+    align-items: center;
+    outline: none;
+    padding: 4px 7px 4px 7px;
+    position: absolute;
+    margin-left: 1px;
+    left: 64%;
+    color: #FFF;
+    border: none;
+    background-color: rgb(255, 62, 20);
+    cursor: pointer;
+}
+
+.Todo-DeleteCompleteButton {
+    display: inline-block;
+    align-items: center;
+    outline: none;
+    padding: 4px 7px 4px 7px;
+    margin-left: 1px;
+    position: absolute;
+    left: 63%;
+    color: #FFF;
+    border: none;
+    background-color: rgba(255, 62, 20, 0.400);
+    cursor: pointer;
+}
+
